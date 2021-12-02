@@ -5,3 +5,8 @@ Along with stubs, this archive also has an object file `userinterrupt.o` which s
 
 Obviously, the headers are missing lots of functions/structures declarations.
 Gotta add those from uOFW.
+
+## Ghidra database
+
+You can import the DWARF symbols into a Ghidra project with [the types database](SCE_kernel_headers_660.gdt).  
+It contains everything as extracted from the object file.
